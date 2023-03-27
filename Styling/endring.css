@@ -83,7 +83,6 @@ button {
     margin-top: 7px;
     border-radius: 5px;
     cursor: pointer;
-    
 }
 
 /* Making the input fields higher and wider that standard */
@@ -112,12 +111,14 @@ button {
     transition: 0ms;
 }
 
+/* Styling for the output (answer) */
 .output {
     margin-left: 20%;
     margin-right: 20%;
+    padding: 2px;
     font-size: 150%;
     font-weight: bold;
     border: 1px solid grey;
     border-radius: 10px;
-    visibility: hidden;
+    visibility: hidden; /* Making the output hidden before it is changed in JS function */
 }
