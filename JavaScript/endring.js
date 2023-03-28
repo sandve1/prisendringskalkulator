@@ -26,7 +26,7 @@ function checkFields() {
         );
     } else {
         calculate(parseFloat(userInput1), parseFloat(userInput2));
-        output.style.visibility = "visible"; //Making "tall1" visible when else statement is run
+        output.style.visibility = "visible"; //Making "tall1" visible when else statement is ran
     }
 }
 
