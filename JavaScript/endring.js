@@ -22,7 +22,7 @@ function checkFields() {
 
     if (userInput1 == "" || userInput2 == "") {
         alert(
-            "Vennligst fyll begge feltene før kalkulering!\nKun nummer akseptert"
+            "Vennligst fyll ut begge feltene før kalkulering!\nKun nummer akseptert"
         );
     } else {
         calculate(parseFloat(userInput1), parseFloat(userInput2));
